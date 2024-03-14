@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playground Assignment</title>
+</head>
+<body>
+    <h1 style = "color:black;text-align: center;">Welcome!</h1>
+    <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+        {% for _ in range(times) %}
+        <div style="width: 100px; height: 100px; background-color: {{ color }}; margin: 10px; border: 2px solid; border-radius: 15px "></div>
+        {% endfor %}
+    </div>
+    
+</body>
+</html>
